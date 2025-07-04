@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="32" fill="#e0e0e0"/>
+  <rect x="40" y="60" width="120" height="60" rx="10" fill="#a5d6a7"/>
+  <rect x="70" y="130" width="60" height="12" rx="6" fill="#388e3c"/>
+  <text x="100" y="95" text-anchor="middle" fill="#388e3c" font-size="18" font-family="Arial" dy=".3em">Computer</text>
+</svg> 
