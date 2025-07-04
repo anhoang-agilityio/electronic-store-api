@@ -12,9 +12,9 @@ function getAverageRating(reviews: { rating: number }[]): number {
 // Returns detailed information about a specific product
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const { id } = params;
+  const { id } = await params;
 
   const product = products.find((p) => p.id === id);
 
