@@ -30,8 +30,8 @@ export const panasonicCameraProducts: Product[] = [
         coverage: '100%',
       },
       connectivity: {
-        wifi: true,
-        bluetooth: true,
+        wifi: 'Yes',
+        bluetooth: 'Yes',
         usb: 'USB-C',
       },
       battery: {
@@ -80,8 +80,8 @@ export const panasonicCameraProducts: Product[] = [
         coverage: '100%',
       },
       connectivity: {
-        wifi: true,
-        bluetooth: true,
+        wifi: 'Yes',
+        bluetooth: 'Yes',
         usb: 'USB-C',
       },
       battery: {
