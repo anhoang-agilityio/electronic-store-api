@@ -4,7 +4,7 @@ export const appleWatchProducts: Product[] = [
   {
     id: 'apple-watch-series-9',
     name: 'Apple Watch Series 9',
-    images: ['/images/placeholder-smartwatch.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-smartwatch.svg`],
     price: 399,
     discountPercent: 5,
     description: 'Latest Apple Watch with S9 chip and Double Tap gesture.',
@@ -50,7 +50,7 @@ export const appleWatchProducts: Product[] = [
   {
     id: 'apple-watch-se',
     name: 'Apple Watch SE',
-    images: ['/images/placeholder-smartwatch.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-smartwatch.svg`],
     price: 249,
     discountPercent: 10,
     description: 'Affordable Apple Watch with essential features.',

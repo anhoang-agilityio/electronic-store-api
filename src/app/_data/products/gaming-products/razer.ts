@@ -4,7 +4,7 @@ export const razerGamingProducts: Product[] = [
   {
     id: 'razer-deathadder-v3-pro',
     name: 'Razer DeathAdder V3 Pro',
-    images: ['/images/placeholder-gaming.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-gaming.svg`],
     price: 159,
     discountPercent: 8,
     description: 'Wireless gaming mouse with Focus Pro 30K sensor.',
@@ -51,7 +51,7 @@ export const razerGamingProducts: Product[] = [
   {
     id: 'razer-blackwidow-v3-pro',
     name: 'Razer BlackWidow V3 Pro',
-    images: ['/images/placeholder-gaming.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-gaming.svg`],
     price: 229,
     discountPercent: 12,
     description: 'Wireless mechanical gaming keyboard with RGB lighting.',

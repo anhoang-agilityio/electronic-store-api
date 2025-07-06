@@ -4,7 +4,7 @@ export const fujifilmCameraProducts: Product[] = [
   {
     id: 'fujifilm-x-t5',
     name: 'Fujifilm X-T5',
-    images: ['/images/placeholder-camera.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-camera.svg`],
     price: 1699,
     discountPercent: 5,
     description: 'APS-C mirrorless camera with 40MP sensor and classic design.',
@@ -54,7 +54,7 @@ export const fujifilmCameraProducts: Product[] = [
   {
     id: 'fujifilm-x100v',
     name: 'Fujifilm X100V',
-    images: ['/images/placeholder-camera.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-camera.svg`],
     price: 1399,
     discountPercent: 0,
     description: 'Premium compact camera with 26.1MP sensor and fixed 23mm lens.',

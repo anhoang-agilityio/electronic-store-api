@@ -5,7 +5,7 @@ export const googlePhones: Product[] = [
   {
     id: 'pixel-7-pro',
     name: 'Google Pixel 7 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 899,
     discountPercent: 5,
     description: 'Google Tensor G2, exceptional camera.',
@@ -58,7 +58,7 @@ export const googlePhones: Product[] = [
   {
     id: 'pixel-7',
     name: 'Google Pixel 7',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 599,
     discountPercent: 8,
     description: 'Google Tensor G2, great camera.',
@@ -104,7 +104,7 @@ export const googlePhones: Product[] = [
   {
     id: 'pixel-6a',
     name: 'Google Pixel 6a',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 349,
     discountPercent: 12,
     description: 'Google Tensor, affordable Pixel.',

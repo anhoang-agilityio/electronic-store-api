@@ -4,7 +4,7 @@ export const panasonicCameraProducts: Product[] = [
   {
     id: 'panasonic-lumix-s5',
     name: 'Panasonic Lumix S5',
-    images: ['/images/placeholder-camera.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-camera.svg`],
     price: 1999,
     discountPercent: 10,
     description: 'Full-frame mirrorless camera with 24.2MP sensor and 4K video.',
@@ -54,7 +54,7 @@ export const panasonicCameraProducts: Product[] = [
   {
     id: 'panasonic-lumix-g9',
     name: 'Panasonic Lumix G9',
-    images: ['/images/placeholder-camera.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-camera.svg`],
     price: 1299,
     discountPercent: 15,
     description: 'Micro Four Thirds camera with 20.3MP sensor and 4K video.',

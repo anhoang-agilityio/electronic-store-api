@@ -4,7 +4,7 @@ export const jblHeadphoneProducts: Product[] = [
   {
     id: 'jbl-tour-one-m2',
     name: 'JBL Tour One M2',
-    images: ['/images/placeholder-headphone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-headphone.svg`],
     price: 299,
     discountPercent: 8,
     description: 'Wireless noise-cancelling headphones with premium audio quality.',
@@ -50,7 +50,7 @@ export const jblHeadphoneProducts: Product[] = [
   {
     id: 'jbl-endurance-peak-3',
     name: 'JBL Endurance Peak 3',
-    images: ['/images/placeholder-headphone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-headphone.svg`],
     price: 99,
     discountPercent: 20,
     description: 'Wireless sport earbuds with secure fit and water resistance.',

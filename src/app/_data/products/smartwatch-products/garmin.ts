@@ -4,7 +4,7 @@ export const garminWatchProducts: Product[] = [
   {
     id: 'garmin-fenix-7',
     name: 'Garmin Fenix 7',
-    images: ['/images/placeholder-smartwatch.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-smartwatch.svg`],
     price: 699,
     discountPercent: 3,
     description: 'Premium multisport GPS watch with advanced training features.',
@@ -50,7 +50,7 @@ export const garminWatchProducts: Product[] = [
   {
     id: 'garmin-vivoactive-5',
     name: 'Garmin Vivoactive 5',
-    images: ['/images/placeholder-smartwatch.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-smartwatch.svg`],
     price: 299,
     discountPercent: 12,
     description: 'Fitness smartwatch with health monitoring and sports tracking.',

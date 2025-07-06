@@ -5,7 +5,7 @@ export const acerComputers: Product[] = [
    {
     id: 'acer-swift-3',
     name: 'Acer Swift 3',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 699,
     discountPercent: 15,
     description: 'Lightweight laptop with all-day battery life.',
@@ -68,7 +68,7 @@ export const acerComputers: Product[] = [
   {
     id: 'acer-aspire-5',
     name: 'Acer Aspire 5',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 549,
     discountPercent: 20,
     description: 'Affordable everyday laptop with good performance.',
@@ -125,7 +125,7 @@ export const acerComputers: Product[] = [
   {
     id: 'acer-predator-helios-300',
     name: 'Acer Predator Helios 300',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1199,
     discountPercent: 10,
     description: 'Gaming laptop with high refresh rate display.',
@@ -189,7 +189,7 @@ export const acerComputers: Product[] = [
   {
     id: 'acer-chromebook-315',
     name: 'Acer Chromebook 315',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 299,
     discountPercent: 25,
     description: 'Budget-friendly Chromebook for education and basic tasks.',
@@ -246,7 +246,7 @@ export const acerComputers: Product[] = [
   {
     id: 'acer-swift-x',
     name: 'Acer Swift X',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 899,
     discountPercent: 12,
     description: 'Creator laptop with dedicated graphics.',
@@ -304,7 +304,7 @@ export const acerComputers: Product[] = [
   {
     id: 'acer-nitro-5',
     name: 'Acer Nitro 5',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 799,
     discountPercent: 15,
     description: 'Budget gaming laptop with good performance.',
@@ -362,7 +362,7 @@ export const acerComputers: Product[] = [
   {
     id: 'acer-conceptd-3',
     name: 'Acer ConceptD 3',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1099,
     discountPercent: 8,
     description: 'Creator laptop with color-accurate display.',
@@ -420,7 +420,7 @@ export const acerComputers: Product[] = [
   {
     id: 'acer-travelmate-p2',
     name: 'Acer TravelMate P2',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 649,
     discountPercent: 18,
     description: 'Business laptop with security features.',

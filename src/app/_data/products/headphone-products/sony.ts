@@ -4,7 +4,7 @@ export const sonyHeadphoneProducts: Product[] = [
   {
     id: 'sony-wh-1000xm5',
     name: 'Sony WH-1000XM5',
-    images: ['/images/placeholder-headphone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-headphone.svg`],
     price: 399,
     discountPercent: 5,
     description: 'Premium wireless noise-cancelling headphones with industry-leading ANC.',
@@ -50,7 +50,7 @@ export const sonyHeadphoneProducts: Product[] = [
   {
     id: 'sony-wf-1000xm4',
     name: 'Sony WF-1000XM4',
-    images: ['/images/placeholder-headphone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-headphone.svg`],
     price: 279,
     discountPercent: 12,
     description: 'Wireless noise-cancelling earbuds with LDAC support.',

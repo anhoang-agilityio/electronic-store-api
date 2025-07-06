@@ -5,7 +5,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-s23-ultra',
     name: 'Samsung Galaxy S23 Ultra',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 1199,
     discountPercent: 8,
     description: 'Samsung flagship with 200MP camera and S Pen.',
@@ -73,7 +73,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-s23',
     name: 'Samsung Galaxy S23',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 899,
     discountPercent: 5,
     description: 'Compact flagship with powerful performance.',
@@ -121,7 +121,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-s22-ultra',
     name: 'Samsung Galaxy S22 Ultra',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 1099,
     discountPercent: 10,
     description: 'S Pen built-in, 108MP camera.',
@@ -160,7 +160,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-s22',
     name: 'Samsung Galaxy S22',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 799,
     discountPercent: 8,
     description: 'Flagship with compact design.',
@@ -199,7 +199,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-s21-ultra',
     name: 'Samsung Galaxy S21 Ultra',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 999,
     discountPercent: 12,
     description: 'Ultra flagship, 108MP camera.',
@@ -238,7 +238,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-s21',
     name: 'Samsung Galaxy S21',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 699,
     discountPercent: 10,
     description: 'Flagship with 120Hz display.',
@@ -277,7 +277,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-s20-ultra',
     name: 'Samsung Galaxy S20 Ultra',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 899,
     discountPercent: 15,
     description: '100x Space Zoom, 5000mAh battery.',
@@ -316,7 +316,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-s20',
     name: 'Samsung Galaxy S20',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 599,
     discountPercent: 13,
     description: '120Hz display, 4000mAh battery.',
@@ -355,7 +355,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-note20-ultra',
     name: 'Samsung Galaxy Note20 Ultra',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 999,
     discountPercent: 18,
     description: 'S Pen, 120Hz display.',
@@ -394,7 +394,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-note20',
     name: 'Samsung Galaxy Note20',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 799,
     discountPercent: 16,
     description: 'S Pen, 4300mAh battery.',
@@ -433,7 +433,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-a54',
     name: 'Samsung Galaxy A54',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 399,
     discountPercent: 10,
     description: 'Affordable 5G phone.',
@@ -472,7 +472,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-a34',
     name: 'Samsung Galaxy A34',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 299,
     discountPercent: 12,
     description: 'Affordable 5G phone.',
@@ -511,7 +511,7 @@ export const samsungPhones: Product[] = [
   {
     id: 'galaxy-m54',
     name: 'Samsung Galaxy M54',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 349,
     discountPercent: 14,
     description: 'Big battery, affordable price.',

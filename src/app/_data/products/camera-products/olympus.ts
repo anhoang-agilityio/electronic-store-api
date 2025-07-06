@@ -4,7 +4,7 @@ export const olympusCameraProducts: Product[] = [
   {
     id: 'olympus-om-1',
     name: 'Olympus OM-1',
-    images: ['/images/placeholder-camera.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-camera.svg`],
     price: 2199,
     discountPercent: 5,
     description: 'Micro Four Thirds camera with 20.4MP sensor and advanced AF.',
@@ -54,7 +54,7 @@ export const olympusCameraProducts: Product[] = [
   {
     id: 'olympus-e-m10-iv',
     name: 'Olympus E-M10 IV',
-    images: ['/images/placeholder-camera.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-camera.svg`],
     price: 699,
     discountPercent: 20,
     description: 'Compact Micro Four Thirds camera with 20.3MP sensor.',

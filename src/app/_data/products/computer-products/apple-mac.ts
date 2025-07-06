@@ -5,7 +5,7 @@ export const appleMacComputers: Product[] = [
   {
     id: 'macbook-air-m2-13',
     name: 'MacBook Air M2 13-inch',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1199,
     discountPercent: 5,
     description: 'Ultra-thin laptop with Apple M2 chip.',
@@ -76,7 +76,7 @@ export const appleMacComputers: Product[] = [
   {
     id: 'macbook-air-m2-15',
     name: 'MacBook Air M2 15-inch',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1299,
     discountPercent: 3,
     description: 'Larger MacBook Air with M2 chip and bigger display.',
@@ -140,7 +140,7 @@ export const appleMacComputers: Product[] = [
   {
     id: 'macbook-pro-m2-13',
     name: 'MacBook Pro M2 13-inch',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1299,
     discountPercent: 8,
     description: 'Professional laptop with M2 chip and Touch Bar.',
@@ -204,7 +204,7 @@ export const appleMacComputers: Product[] = [
   {
     id: 'macbook-pro-m2-14',
     name: 'MacBook Pro M2 14-inch',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1999,
     discountPercent: 5,
     description: 'Powerful 14-inch MacBook Pro with M2 Pro chip.',
@@ -269,7 +269,7 @@ export const appleMacComputers: Product[] = [
   {
     id: 'macbook-pro-m3-14',
     name: 'MacBook Pro M3 14-inch',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1599,
     discountPercent: 0,
     description: 'Latest MacBook Pro with M3 chip for ultimate performance.',
@@ -334,7 +334,7 @@ export const appleMacComputers: Product[] = [
   {
     id: 'macbook-pro-m3-pro-14',
     name: 'MacBook Pro M3 Pro 14-inch',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1999,
     discountPercent: 0,
     description: 'Professional MacBook Pro with M3 Pro chip.',
@@ -392,7 +392,7 @@ export const appleMacComputers: Product[] = [
   {
     id: 'macbook-pro-m3-max-14',
     name: 'MacBook Pro M3 Max 14-inch',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 3199,
     discountPercent: 0,
     description: 'Ultimate MacBook Pro with M3 Max chip for extreme performance.',
@@ -451,7 +451,7 @@ export const appleMacComputers: Product[] = [
   {
     id: 'macbook-air-m1',
     name: 'MacBook Air M1',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 999,
     discountPercent: 20,
     description: 'Classic MacBook Air with M1 chip at great value.',

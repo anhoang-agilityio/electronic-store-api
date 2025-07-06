@@ -4,7 +4,7 @@ export const djiCameraProducts: Product[] = [
   {
     id: 'dji-osmo-action-3',
     name: 'DJI Osmo Action 3',
-    images: ['/images/placeholder-camera.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-camera.svg`],
     price: 329,
     discountPercent: 15,
     description: 'Action camera with 12MP sensor and 4K video.',
@@ -54,7 +54,7 @@ export const djiCameraProducts: Product[] = [
   {
     id: 'dji-pocket-2',
     name: 'DJI Pocket 2',
-    images: ['/images/placeholder-camera.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-camera.svg`],
     price: 349,
     discountPercent: 10,
     description: 'Pocket-sized camera with 64MP sensor and 4K video.',

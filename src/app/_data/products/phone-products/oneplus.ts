@@ -5,7 +5,7 @@ export const oneplusPhones: Product[] = [
   {
     id: 'oneplus-11',
     name: 'OnePlus 11',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 699,
     discountPercent: 8,
     description: 'Hasselblad cameras, 100W charging.',
@@ -58,7 +58,7 @@ export const oneplusPhones: Product[] = [
   {
     id: 'oneplus-11r',
     name: 'OnePlus 11R',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 499,
     discountPercent: 10,
     description: '100W charging, Snapdragon 8+ Gen 1.',
@@ -104,7 +104,7 @@ export const oneplusPhones: Product[] = [
   {
     id: 'oneplus-nord-3',
     name: 'OnePlus Nord 3',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 349,
     discountPercent: 12,
     description: '80W charging, Dimensity 9000.',

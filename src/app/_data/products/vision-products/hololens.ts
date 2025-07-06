@@ -4,7 +4,7 @@ export const hololensVisionProducts: Product[] = [
   {
     id: 'hololens-2',
     name: 'Microsoft HoloLens 2',
-    images: ['/images/placeholder-vision.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-vision.svg`],
     price: 3500,
     discountPercent: 0,
     description: 'Enterprise mixed reality headset for business and development.',

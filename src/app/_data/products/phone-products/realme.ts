@@ -5,7 +5,7 @@ export const realmePhones: Product[] = [
   {
     id: 'realme-gt-neo5',
     name: 'Realme GT Neo 5',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 399,
     discountPercent: 10,
     description: '240W charging, Snapdragon 8+ Gen 1.',
@@ -58,7 +58,7 @@ export const realmePhones: Product[] = [
   {
     id: 'realme-gt-neo5-se',
     name: 'Realme GT Neo 5 SE',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 299,
     discountPercent: 12,
     description: '100W charging, Snapdragon 7+ Gen 2.',
@@ -104,7 +104,7 @@ export const realmePhones: Product[] = [
   {
     id: 'realme-10-pro-plus',
     name: 'Realme 10 Pro+',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 349,
     discountPercent: 15,
     description: '2160Hz PWM dimming, 100W charging.',

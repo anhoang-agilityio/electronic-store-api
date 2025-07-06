@@ -4,7 +4,7 @@ export const htcViveVisionProducts: Product[] = [
   {
     id: 'htc-vive-xr-elite',
     name: 'HTC Vive XR Elite',
-    images: ['/images/placeholder-vision.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-vision.svg`],
     price: 1099,
     discountPercent: 5,
     description: 'Premium standalone VR headset with pancake optics and mixed reality.',

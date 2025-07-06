@@ -5,7 +5,7 @@ export const xiaomiPhones: Product[] = [
   {
     id: 'xiaomi-13-ultra',
     name: 'Xiaomi 13 Ultra',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 899,
     discountPercent: 8,
     description: 'Professional photography phone with Leica optics.',
@@ -58,7 +58,7 @@ export const xiaomiPhones: Product[] = [
   {
     id: 'xiaomi-13-pro',
     name: 'Xiaomi 13 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 799,
     discountPercent: 10,
     description: 'Premium flagship with ceramic design.',
@@ -104,7 +104,7 @@ export const xiaomiPhones: Product[] = [
   {
     id: 'xiaomi-13',
     name: 'Xiaomi 13',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 599,
     discountPercent: 12,
     description: 'Compact flagship with great performance.',
@@ -150,7 +150,7 @@ export const xiaomiPhones: Product[] = [
   {
     id: 'xiaomi-12s-ultra',
     name: 'Xiaomi 12S Ultra',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 699,
     discountPercent: 15,
     description: 'Previous generation ultra flagship.',
@@ -189,7 +189,7 @@ export const xiaomiPhones: Product[] = [
   {
     id: 'xiaomi-12-pro',
     name: 'Xiaomi 12 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 549,
     discountPercent: 18,
     description: 'Previous generation pro model.',

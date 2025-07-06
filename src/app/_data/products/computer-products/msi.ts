@@ -5,7 +5,7 @@ export const msiComputers: Product[] = [
   {
     id: 'msi-raider-ge78-hx',
     name: 'MSI Raider GE78 HX',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 2499,
     discountPercent: 8,
     description: 'Premium gaming laptop with Intel Core i9 and RTX 4080.',
@@ -76,7 +76,7 @@ export const msiComputers: Product[] = [
   {
     id: 'msi-stealth-16-studio',
     name: 'MSI Stealth 16 Studio',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1899,
     discountPercent: 10,
     description: 'Creator-focused gaming laptop with RTX 4070.',
@@ -140,7 +140,7 @@ export const msiComputers: Product[] = [
   {
     id: 'msi-vector-gp68-hx',
     name: 'MSI Vector GP68 HX',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 2199,
     discountPercent: 5,
     description: 'Gaming laptop with Intel Core i7 and RTX 4080.',
@@ -198,7 +198,7 @@ export const msiComputers: Product[] = [
   {
     id: 'msi-cyborg-15',
     name: 'MSI Cyborg 15',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 899,
     discountPercent: 15,
     description: 'Budget gaming laptop with RTX 4050.',
@@ -256,7 +256,7 @@ export const msiComputers: Product[] = [
   {
     id: 'msi-katana-15',
     name: 'MSI Katana 15',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1099,
     discountPercent: 12,
     description: 'Gaming laptop with RTX 4060 and good cooling.',
@@ -320,7 +320,7 @@ export const msiComputers: Product[] = [
   {
     id: 'msi-gf63-thin',
     name: 'MSI GF63 Thin',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 699,
     discountPercent: 20,
     description: 'Ultra-thin gaming laptop with RTX 3050.',
@@ -378,7 +378,7 @@ export const msiComputers: Product[] = [
   {
     id: 'msi-pulse-17',
     name: 'MSI Pulse 17',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1399,
     discountPercent: 8,
     description: '17-inch gaming laptop with RTX 4060.',

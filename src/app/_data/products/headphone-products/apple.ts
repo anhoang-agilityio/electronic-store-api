@@ -4,7 +4,7 @@ export const appleHeadphoneProducts: Product[] = [
   {
     id: 'apple-airpods-max',
     name: 'Apple AirPods Max',
-    images: ['/images/placeholder-headphone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-headphone.svg`],
     price: 549,
     discountPercent: 8,
     description: 'Premium over-ear headphones with Active Noise Cancellation.',

@@ -5,7 +5,7 @@ export const vivoPhones: Product[] = [
   {
     id: 'vivo-x90-pro-plus',
     name: 'vivo X90 Pro+',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 899,
     discountPercent: 5,
     description: 'Zeiss optics with V2 imaging chip.',
@@ -58,7 +58,7 @@ export const vivoPhones: Product[] = [
   {
     id: 'vivo-x90-pro',
     name: 'vivo X90 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 699,
     discountPercent: 8,
     description: 'Flagship with Zeiss cameras.',
@@ -104,7 +104,7 @@ export const vivoPhones: Product[] = [
   {
     id: 'vivo-x90',
     name: 'vivo X90',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 549,
     discountPercent: 12,
     description: 'Mainstream flagship option.',
@@ -144,7 +144,7 @@ export const vivoPhones: Product[] = [
   {
     id: 'vivo-v29-pro',
     name: 'vivo V29 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 399,
     discountPercent: 10,
     description: 'Mid-range with great cameras.',
@@ -183,7 +183,7 @@ export const vivoPhones: Product[] = [
   {
     id: 'vivo-v29',
     name: 'vivo V29',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 299,
     discountPercent: 15,
     description: 'Affordable mid-range option.',

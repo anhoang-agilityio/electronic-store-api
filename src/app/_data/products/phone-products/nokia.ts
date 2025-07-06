@@ -5,7 +5,7 @@ export const nokiaPhones: Product[] = [
   {
     id: 'nokia-x30',
     name: 'Nokia X30',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 399,
     discountPercent: 10,
     description: 'Sustainable design, 3 years updates.',
@@ -58,7 +58,7 @@ export const nokiaPhones: Product[] = [
   {
     id: 'nokia-g60',
     name: 'Nokia G60',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 299,
     discountPercent: 12,
     description: '5G, 3 years updates.',
@@ -104,7 +104,7 @@ export const nokiaPhones: Product[] = [
   {
     id: 'nokia-x20',
     name: 'Nokia X20',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 249,
     discountPercent: 15,
     description: '3 years updates, Zeiss optics.',

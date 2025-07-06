@@ -3,7 +3,7 @@
 export type Category = {
   id: string;
   name: string;
-  image: string; // SVG file path
+  image: string;
 };
 
 export type Brand = {

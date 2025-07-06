@@ -5,7 +5,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-spectre-x360-14',
   name: 'HP Spectre x360 14',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 1399,
   discountPercent: 8,
   description: 'Premium 2-in-1 convertible laptop.',
@@ -75,7 +75,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-envy-x360-15',
   name: 'HP Envy x360 15',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 999,
   discountPercent: 10,
   description: 'Versatile 2-in-1 laptop for productivity.',
@@ -138,7 +138,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-pavilion-15',
   name: 'HP Pavilion 15',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 699,
   discountPercent: 12,
   description: 'Everyday laptop for work and entertainment.',
@@ -195,7 +195,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-elitebook-840',
   name: 'HP EliteBook 840',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 1599,
   discountPercent: 8,
   description: 'Professional business laptop with security features.',
@@ -252,7 +252,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-probook-450',
   name: 'HP ProBook 450',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 899,
   discountPercent: 15,
   description: 'Reliable business laptop for small to medium businesses.',
@@ -308,7 +308,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-omen-16',
   name: 'HP Omen 16',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 1299,
   discountPercent: 10,
   description: 'Gaming laptop with RTX graphics.',
@@ -366,7 +366,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-chromebook-14',
   name: 'HP Chromebook 14',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 349,
   discountPercent: 20,
   description: 'Affordable Chromebook for everyday use.',
@@ -423,7 +423,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-zbook-studio-g8',
   name: 'HP ZBook Studio G8',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 2199,
   discountPercent: 5,
   description: 'Mobile workstation for creative professionals.',
@@ -481,7 +481,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-stream-14',
   name: 'HP Stream 14',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 249,
   discountPercent: 25,
   description: 'Ultra-affordable laptop for basic tasks.',
@@ -538,7 +538,7 @@ export const hpComputers: Product[] = [
 {
   id: 'hp-victus-16',
   name: 'HP Victus 16',
-  images: ['/images/placeholder-computer.svg'],
+  images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
   price: 799,
   discountPercent: 15,
   description: 'Affordable gaming laptop with good performance.',

@@ -5,7 +5,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-14-pro',
     name: 'iPhone 14 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 1099,
     discountPercent: 10,
     description: 'The latest iPhone with advanced camera and display.',
@@ -80,7 +80,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-14',
     name: 'iPhone 14',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 899,
     discountPercent: 5,
     description: 'iPhone 14 with improved battery life.',
@@ -122,7 +122,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-13-pro',
     name: 'iPhone 13 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 799,
     discountPercent: 8,
     description: 'iPhone 13 Pro with ProMotion display.',
@@ -163,7 +163,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-13',
     name: 'iPhone 13',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 699,
     discountPercent: 7,
     description: 'iPhone 13 with dual camera system.',
@@ -204,7 +204,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-12-pro',
     name: 'iPhone 12 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 599,
     discountPercent: 6,
     description: 'iPhone 12 Pro with LiDAR scanner.',
@@ -245,7 +245,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-12',
     name: 'iPhone 12',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 499,
     discountPercent: 5,
     description: 'iPhone 12 with 5G support.',
@@ -286,7 +286,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-11-pro',
     name: 'iPhone 11 Pro',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 449,
     discountPercent: 6,
     description: 'iPhone 11 Pro with triple camera system.',
@@ -325,7 +325,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-11',
     name: 'iPhone 11',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 399,
     discountPercent: 5,
     description: 'iPhone 11 with dual camera.',
@@ -364,7 +364,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-se-2022',
     name: 'iPhone SE (2022)',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 349,
     discountPercent: 8,
     description: 'Affordable iPhone with A15 Bionic.',
@@ -403,7 +403,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-xr',
     name: 'iPhone XR',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 299,
     discountPercent: 7,
     description: 'Colorful iPhone with Liquid Retina display.',
@@ -442,7 +442,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-xs',
     name: 'iPhone XS',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 279,
     discountPercent: 6,
     description: 'iPhone XS with Super Retina display.',
@@ -481,7 +481,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-xs-max',
     name: 'iPhone XS Max',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 299,
     discountPercent: 7,
     description: 'Large iPhone with Super Retina display.',
@@ -520,7 +520,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-x',
     name: 'iPhone X',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 249,
     discountPercent: 8,
     description: 'iPhone X with Face ID and OLED display.',
@@ -559,7 +559,7 @@ export const applePhones: Product[] = [
   {
     id: 'iphone-8',
     name: 'iPhone 8',
-    images: ['/images/placeholder-phone.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-phone.svg`],
     price: 199,
     discountPercent: 9,
     description: 'Classic iPhone with Touch ID.',

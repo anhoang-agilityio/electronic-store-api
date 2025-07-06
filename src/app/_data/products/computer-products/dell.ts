@@ -5,7 +5,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-xps-13-plus',
     name: 'Dell XPS 13 Plus',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1299,
     discountPercent: 8,
     description: 'Premium ultrabook with InfinityEdge display.',
@@ -75,7 +75,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-xps-13',
     name: 'Dell XPS 13',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 999,
     discountPercent: 10,
     description: 'Classic ultrabook with premium design.',
@@ -138,7 +138,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-xps-15',
     name: 'Dell XPS 15',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1799,
     discountPercent: 5,
     description: 'Powerful 15-inch creator laptop.',
@@ -202,7 +202,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-latitude-9440',
     name: 'Dell Latitude 9440',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1499,
     discountPercent: 12,
     description: 'Premium business laptop with security features.',
@@ -259,7 +259,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-precision-5570',
     name: 'Dell Precision 5570',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 2499,
     discountPercent: 8,
     description: 'Mobile workstation for professionals.',
@@ -317,7 +317,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-inspiron-16',
     name: 'Dell Inspiron 16',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 799,
     discountPercent: 15,
     description: 'Affordable 16-inch laptop for everyday use.',
@@ -374,7 +374,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-alienware-m16',
     name: 'Dell Alienware M16',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 1999,
     discountPercent: 10,
     description: 'Gaming laptop with premium performance.',
@@ -432,7 +432,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-vostro-3510',
     name: 'Dell Vostro 3510',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 599,
     discountPercent: 20,
     description: 'Business laptop for small businesses.',
@@ -489,7 +489,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-g15-gaming',
     name: 'Dell G15 Gaming',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 899,
     discountPercent: 12,
     description: 'Affordable gaming laptop.',
@@ -546,7 +546,7 @@ export const dellComputers: Product[] = [
   {
     id: 'dell-chromebook-3110',
     name: 'Dell Chromebook 3110',
-    images: ['/images/placeholder-computer.svg'],
+    images: [`${process.env.API_URL}/images/placeholder-computer.svg`],
     price: 299,
     discountPercent: 15,
     description: 'Educational Chromebook for students.',
