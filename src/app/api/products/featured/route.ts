@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { products } from '../../../_data';
+import { shuffleArray } from '../../../_data/utils';
 
 // Helper function to calculate average rating from reviews
 function getAverageRating(reviews: { rating: number }[]): number {
@@ -24,8 +25,8 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  // Limit the number of results
-  const limitedProducts = featuredProducts.slice(0, limit);
+  const shuffledProducts = shuffleArray(featuredProducts);
+  const limitedProducts = shuffledProducts.slice(0, limit);
 
   // Add calculated rating to each product
   const productsWithRating = limitedProducts.map((product) => ({
