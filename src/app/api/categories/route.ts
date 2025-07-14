@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { categories } from '../../_data';
+import { categories } from '@/data';
  
 // GET /api/categories
 // Returns the list of all categories

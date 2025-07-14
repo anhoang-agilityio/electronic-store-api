@@ -1,12 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { products } from '../../_data';
-
-// Helper function to calculate average rating from reviews
-function getAverageRating(reviews: { rating: number }[]): number {
-  if (!reviews || reviews.length === 0) return 0;
-  const sum = reviews.reduce((acc, r) => acc + r.rating, 0);
-  return Math.round((sum / reviews.length) * 100) / 100; // rounded to 2 decimals
-}
+import { products } from '@/data';
+import { getAverageRating } from '@/utils';
 
 // GET /api/search?q=searchTerm&category=...&brands=...&minPrice=...&maxPrice=...&sort=rating_asc|rating_desc|price_asc|price_desc&page=...&pageSize=...
 // Returns search results for products

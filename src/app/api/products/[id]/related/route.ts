@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { products } from '../../../../_data';
+import { products } from '../../@/data';
 
 // GET /api/products/[id]/related
 // Returns related products for a specific product

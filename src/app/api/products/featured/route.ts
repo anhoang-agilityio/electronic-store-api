@@ -1,13 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { products } from '../../../_data';
-import { shuffleArray } from '../../../_data/utils';
-
-// Helper function to calculate average rating from reviews
-function getAverageRating(reviews: { rating: number }[]): number {
-  if (!reviews || reviews.length === 0) return 0;
-  const sum = reviews.reduce((acc, r) => acc + r.rating, 0);
-  return Math.round((sum / reviews.length) * 100) / 100; // rounded to 2 decimals
-}
+import { products } from '@/data';
+import { getAverageRating, shuffleArray } from '@/utils';
 
 // GET /api/products/featured
 // Returns featured products (isFeatured: true)

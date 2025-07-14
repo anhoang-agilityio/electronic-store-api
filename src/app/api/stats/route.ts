@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { products, categories, brands } from '../../_data';
+import { products, categories, brands } from '@/data';
 
 // GET /api/stats
 // Returns overview statistics about the store

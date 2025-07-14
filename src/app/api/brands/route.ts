@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { brands } from '../../_data';
+import { brands } from '@/data';
 
 // GET /api/brands?category=categoryId
 // Returns the list of brands, optionally filtered by category
