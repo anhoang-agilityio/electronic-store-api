@@ -1,9 +1,15 @@
 # Electronic Store API Documentation
 
-## Base URL
+## Environment Setup on local
+
+Before running the project, create a `.env` file in the root directory with the following keys:
+
+```env
+API_KEY=your_api_key_here
+API_URL=https://your-api-url.com
 ```
-http://localhost:3000/api
-```
+
+Replace `your_api_key_here` and `https://your-api-url.com` with the actual API key and API URL.
 
 ## Endpoints
 
@@ -154,126 +160,4 @@ Search products by name and description.
 - `maxPrice` (optional): Maximum price filter
 - `sort` (optional): Sort order - "rating_asc", "rating_desc", "price_asc", "price_desc"
 - `page` (optional): Page number (default: 1)
-- `pageSize` (optional): Items per page (default: 10)
-
-**Response:**
-```json
-{
-  "query": "iphone",
-  "total": 25,
-  "page": 1,
-  "pageSize": 10,
-  "products": [...]
-}
-```
-
-### Statistics
-
-#### GET /api/stats
-Returns overview statistics about the store.
-
-**Query Parameters:**
-- `category` (optional): Filter statistics by category
-
-**Response:**
-```json
-{
-  "overview": {
-    "totalProducts": 150,
-    "totalCategories": 7,
-    "totalBrands": 45
-  },
-  "pricing": {
-    "minPrice": 99,
-    "maxPrice": 3499,
-    "avgPrice": 899
-  },
-  "discounts": {
-    "totalDiscounted": 45,
-    "avgDiscount": 12
-  },
-  "productTypes": {
-    "featured": 20,
-    "bestsellers": 15,
-    "newArrivals": 10
-  },
-  "availability": {
-    "inStock": 140,
-    "outOfStock": 10
-  },
-  "ratings": {
-    "avgRating": 4.2,
-    "productsWithReviews": 120
-  }
-}
-```
-
-## Data Structure
-
-### Product
-```typescript
-{
-  id: string;
-  name: string;
-  images: string[];
-  price: number;
-  discountPercent: number;
-  description: string;
-  shippingInfo: string;
-  availability: 'in_stock' | 'out_of_stock';
-  warranty: string;
-  relatedProductIds: string[];
-  detailDescription: string;
-  details: ProductDetail;
-  reviews: Review[];
-  brandId: string;
-  categoryId: string;
-  isBestseller?: boolean;
-  isFeatured?: boolean;
-  isNewArrival?: boolean;
-  isDiscount?: boolean;
-  rating?: number; // Calculated field
-}
-```
-
-### Category
-```typescript
-{
-  id: string;
-  name: string;
-  description: string;
-}
-```
-
-### Brand
-```typescript
-{
-  id: string;
-  name: string;
-  categoryId: string;
-}
-```
-
-## Categories Available
-- `phone` - Smartphones and mobile devices
-- `computer` - Laptops, desktops, and computing devices
-- `camera` - Cameras and photography equipment
-- `gaming` - Gaming consoles and accessories
-- `headphone` - Audio devices and headphones
-- `smartwatch` - Smartwatches and wearables
-- `vision` - VR/AR headsets and spatial computing devices
-
-## Error Responses
-
-All endpoints return appropriate HTTP status codes:
-
-- `200` - Success
-- `400` - Bad Request (missing required parameters)
-- `404` - Not Found (product/category not found)
-
-Error response format:
-```json
-{
-  "error": "Error message description"
-}
-``` 
+- `
