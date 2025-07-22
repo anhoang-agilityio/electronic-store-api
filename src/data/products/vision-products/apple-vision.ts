@@ -5,7 +5,7 @@ export const appleVisionProducts: Product[] = [
   {
     id: 'apple-vision-pro',
     name: 'Apple Vision Pro',
-    images: [generateImageUrl('placeholder-vision.svg')],
+    images: [generateImageUrl('placeholder-vision.png')],
     price: 3499,
     discountPercent: 0,
     description: 'Revolutionary spatial computing device with micro-OLED displays.',

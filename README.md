@@ -92,7 +92,7 @@ Returns detailed information about a specific product.
 {
   "id": "iphone-15-pro",
   "name": "iPhone 15 Pro",
-  "images": ["/images/placeholder-phone.svg"],
+  "images": ["/images/placeholder-phone.png"],
   "price": 999,
   "discountPercent": 5,
   "description": "Latest iPhone with A17 Pro chip",

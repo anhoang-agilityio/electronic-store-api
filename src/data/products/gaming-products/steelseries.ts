@@ -5,7 +5,7 @@ export const steelseriesGamingProducts: Product[] = [
   {
     id: 'steelseries-aerox-3',
     name: 'SteelSeries Aerox 3',
-    images: [generateImageUrl('placeholder-gaming.svg')],
+    images: [generateImageUrl('placeholder-gaming.png')],
     price: 79,
     discountPercent: 20,
     description: 'Ultra-lightweight wireless gaming mouse with TrueMove Air sensor.',
@@ -52,7 +52,7 @@ export const steelseriesGamingProducts: Product[] = [
   {
     id: 'steelseries-apex-pro',
     name: 'SteelSeries Apex Pro',
-    images: [generateImageUrl('placeholder-gaming.svg')],
+    images: [generateImageUrl('placeholder-gaming.png')],
     price: 199,
     discountPercent: 15,
     description: 'Mechanical gaming keyboard with adjustable actuation.',

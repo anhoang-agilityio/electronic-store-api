@@ -6,7 +6,7 @@ export const oppoPhones: Product[] = [
   {
     id: 'oppo-find-x6-pro',
     name: 'OPPO Find X6 Pro',
-    images: [generateImageUrl('placeholder-phone.svg')],
+    images: [generateImageUrl('placeholder-phone.png')],
     price: 899,
     discountPercent: 5,
     description: 'Hasselblad camera system with MariSilicon X.',
@@ -59,7 +59,7 @@ export const oppoPhones: Product[] = [
   {
     id: 'oppo-find-x6',
     name: 'OPPO Find X6',
-    images: [generateImageUrl('placeholder-phone.svg')],
+    images: [generateImageUrl('placeholder-phone.png')],
     price: 699,
     discountPercent: 8,
     description: 'Flagship with Hasselblad cameras.',
@@ -105,7 +105,7 @@ export const oppoPhones: Product[] = [
   {
     id: 'oppo-find-x5-pro',
     name: 'OPPO Find X5 Pro',
-    images: [generateImageUrl('placeholder-phone.svg')],
+    images: [generateImageUrl('placeholder-phone.png')],
     price: 599,
     discountPercent: 15,
     description: 'Previous generation pro flagship.',
@@ -144,7 +144,7 @@ export const oppoPhones: Product[] = [
   {
     id: 'oppo-reno10-pro',
     name: 'OPPO Reno10 Pro',
-    images: [generateImageUrl('placeholder-phone.svg')],
+    images: [generateImageUrl('placeholder-phone.png')],
     price: 449,
     discountPercent: 10,
     description: 'Mid-range with great cameras.',
@@ -184,7 +184,7 @@ export const oppoPhones: Product[] = [
   {
     id: 'oppo-reno10',
     name: 'OPPO Reno10',
-    images: [generateImageUrl('placeholder-phone.svg')],
+    images: [generateImageUrl('placeholder-phone.png')],
     price: 349,
     discountPercent: 12,
     description: 'Affordable mid-range option.',

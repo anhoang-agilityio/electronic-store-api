@@ -5,7 +5,7 @@ export const goproCameraProducts: Product[] = [
   {
     id: 'gopro-hero-11-black',
     name: 'GoPro Hero 11 Black',
-    images: [generateImageUrl('placeholder-camera.svg')],
+    images: [generateImageUrl('placeholder-camera.png')],
     price: 499,
     discountPercent: 10,
     description: 'Action camera with 27MP sensor and 5.3K video.',
@@ -55,7 +55,7 @@ export const goproCameraProducts: Product[] = [
   {
     id: 'gopro-hero-10-black',
     name: 'GoPro Hero 10 Black',
-    images: [generateImageUrl('placeholder-camera.svg')],
+    images: [generateImageUrl('placeholder-camera.png')],
     price: 399,
     discountPercent: 20,
     description: 'Action camera with 23MP sensor and 5.3K video.',

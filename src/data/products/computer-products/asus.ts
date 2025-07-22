@@ -6,7 +6,7 @@ export const asusComputers: Product[] = [
    {
     id: 'asus-zenbook-14-oled',
     name: 'ASUS ZenBook 14 OLED',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1199,
     discountPercent: 10,
     description: 'Premium ultrabook with stunning OLED display.',
@@ -76,7 +76,7 @@ export const asusComputers: Product[] = [
   {
     id: 'asus-rog-zephyrus-g14',
     name: 'ASUS ROG Zephyrus G14',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1499,
     discountPercent: 8,
     description: 'Gaming laptop with AMD Ryzen and RTX graphics.',
@@ -140,7 +140,7 @@ export const asusComputers: Product[] = [
   {
     id: 'asus-vivobook-15',
     name: 'ASUS VivoBook 15',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 599,
     discountPercent: 15,
     description: 'Affordable everyday laptop with good performance.',
@@ -197,7 +197,7 @@ export const asusComputers: Product[] = [
   {
     id: 'asus-tuf-gaming-a15',
     name: 'ASUS TUF Gaming A15',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 899,
     discountPercent: 12,
     description: 'Durable gaming laptop with military-grade construction.',
@@ -255,7 +255,7 @@ export const asusComputers: Product[] = [
   {
     id: 'asus-chromebook-flip',
     name: 'ASUS Chromebook Flip C434',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 449,
     discountPercent: 20,
     description: 'Premium 2-in-1 Chromebook with aluminum design.',
@@ -312,7 +312,7 @@ export const asusComputers: Product[] = [
   {
     id: 'asus-expertbook-b9',
     name: 'ASUS ExpertBook B9',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1699,
     discountPercent: 5,
     description: 'Ultra-lightweight business laptop with premium features.',
@@ -369,7 +369,7 @@ export const asusComputers: Product[] = [
   {
     id: 'asus-zenbook-duo-14',
     name: 'ASUS ZenBook Duo 14',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1399,
     discountPercent: 10,
     description: 'Dual-screen laptop for enhanced productivity.',
@@ -426,7 +426,7 @@ export const asusComputers: Product[] = [
   {
     id: 'asus-rog-strix-g15',
     name: 'ASUS ROG Strix G15',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1299,
     discountPercent: 8,
     description: 'Gaming laptop with aggressive design and RGB lighting.',

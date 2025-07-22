@@ -5,7 +5,7 @@ export const boseHeadphoneProducts: Product[] = [
   {
     id: 'bose-quietcomfort-45',
     name: 'Bose QuietComfort 45',
-    images: [generateImageUrl('placeholder-headphone.svg')],
+    images: [generateImageUrl('placeholder-headphone.png')],
     price: 329,
     discountPercent: 10,
     description: 'Wireless noise-cancelling headphones with premium comfort.',
@@ -57,7 +57,7 @@ export const boseHeadphoneProducts: Product[] = [
   {
     id: 'bose-sport-earbuds',
     name: 'Bose Sport Earbuds',
-    images: [generateImageUrl('placeholder-headphone.svg')],
+    images: [generateImageUrl('placeholder-headphone.png')],
     price: 179,
     discountPercent: 15,
     description: 'Wireless sport earbuds with secure fit and water resistance.',

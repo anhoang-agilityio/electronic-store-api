@@ -6,7 +6,7 @@ export const microsoftComputers: Product[] = [
   {
     id: 'surface-laptop-studio-2',
     name: 'Surface Laptop Studio 2',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1999,
     discountPercent: 5,
     description: 'Versatile 2-in-1 laptop with Intel Core i7 and RTX 4060.',
@@ -71,7 +71,7 @@ export const microsoftComputers: Product[] = [
   {
     id: 'surface-laptop-5',
     name: 'Surface Laptop 5',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 999,
     discountPercent: 10,
     description: 'Premium laptop with Intel Core i5 and beautiful design.',
@@ -128,7 +128,7 @@ export const microsoftComputers: Product[] = [
   {
     id: 'surface-pro-9',
     name: 'Surface Pro 9',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1099,
     discountPercent: 8,
     description: 'Versatile tablet-laptop hybrid with Intel Core i5.',
@@ -191,7 +191,7 @@ export const microsoftComputers: Product[] = [
   {
     id: 'surface-laptop-go-3',
     name: 'Surface Laptop Go 3',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 599,
     discountPercent: 15,
     description: 'Affordable Surface laptop with Intel Core i5.',

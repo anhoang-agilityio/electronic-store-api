@@ -6,7 +6,7 @@ export const gigabyteComputers: Product[] = [
   {
     id: 'gigabyte-aorus-17x',
     name: 'Gigabyte AORUS 17X',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 2799,
     discountPercent: 5,
     description: 'Premium gaming laptop with Intel Core i9 and RTX 4090.',
@@ -65,7 +65,7 @@ export const gigabyteComputers: Product[] = [
   {
     id: 'gigabyte-aorus-15',
     name: 'Gigabyte AORUS 15',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1899,
     discountPercent: 8,
     description: 'Gaming laptop with RTX 4070 and high refresh rate display.',
@@ -123,7 +123,7 @@ export const gigabyteComputers: Product[] = [
   {
     id: 'gigabyte-g5-kf',
     name: 'Gigabyte G5 KF',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 999,
     discountPercent: 15,
     description: 'Budget gaming laptop with RTX 4060.',
@@ -181,7 +181,7 @@ export const gigabyteComputers: Product[] = [
   {
     id: 'gigabyte-g6-kf',
     name: 'Gigabyte G6 KF',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1199,
     discountPercent: 12,
     description: 'Gaming laptop with RTX 4060 and good performance.',
@@ -239,7 +239,7 @@ export const gigabyteComputers: Product[] = [
   {
     id: 'gigabyte-aero-16',
     name: 'Gigabyte AERO 16',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 2199,
     discountPercent: 5,
     description: 'Creator laptop with OLED display and RTX 4070.',
@@ -297,7 +297,7 @@ export const gigabyteComputers: Product[] = [
   {
     id: 'gigabyte-u4',
     name: 'Gigabyte U4',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 799,
     discountPercent: 20,
     description: 'Ultra-thin laptop with RTX 3050.',

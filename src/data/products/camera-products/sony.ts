@@ -5,7 +5,7 @@ export const sonyCameraProducts: Product[] = [
   {
     id: 'sony-a7-iv',
     name: 'Sony A7 IV',
-    images: [generateImageUrl('placeholder-camera.svg')],
+    images: [generateImageUrl('placeholder-camera.png')],
     price: 2499,
     discountPercent: 8,
     description: 'Full-frame mirrorless camera with 33MP sensor and 4K video.',
@@ -55,7 +55,7 @@ export const sonyCameraProducts: Product[] = [
   {
     id: 'sony-zv-e10',
     name: 'Sony ZV-E10',
-    images: [generateImageUrl('placeholder-camera.svg')],
+    images: [generateImageUrl('placeholder-camera.png')],
     price: 699,
     discountPercent: 15,
     description: 'APS-C vlogging camera with 24.2MP sensor and 4K video.',

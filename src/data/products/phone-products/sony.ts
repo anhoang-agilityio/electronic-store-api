@@ -6,7 +6,7 @@ export const sonyPhones: Product[] = [
   {
     id: 'sony-xperia-1-v',
     name: 'Sony Xperia 1 V',
-    images: [generateImageUrl('placeholder-phone.svg')],
+    images: [generateImageUrl('placeholder-phone.png')],
     price: 1299,
     discountPercent: 5,
     description: 'Cinema camera, 4K display.',
@@ -59,7 +59,7 @@ export const sonyPhones: Product[] = [
   {
     id: 'sony-xperia-5-v',
     name: 'Sony Xperia 5 V',
-    images: [generateImageUrl('placeholder-phone.svg')],
+    images: [generateImageUrl('placeholder-phone.png')],
     price: 999,
     discountPercent: 8,
     description: 'Compact flagship, cinema camera.',
@@ -105,7 +105,7 @@ export const sonyPhones: Product[] = [
   {
     id: 'sony-xperia-10-v',
     name: 'Sony Xperia 10 V',
-    images: [generateImageUrl('placeholder-phone.svg')],
+    images: [generateImageUrl('placeholder-phone.png')],
     price: 449,
     discountPercent: 12,
     description: '21:9 display, 3 years updates.',

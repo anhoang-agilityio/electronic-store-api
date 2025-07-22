@@ -5,7 +5,7 @@ export const nikonCameraProducts: Product[] = [
   {
     id: 'nikon-z6-ii',
     name: 'Nikon Z6 II',
-    images: [generateImageUrl('placeholder-camera.svg')],
+    images: [generateImageUrl('placeholder-camera.png')],
     price: 1999,
     discountPercent: 10,
     description: 'Full-frame mirrorless camera with 24.5MP sensor and 4K video.',
@@ -55,7 +55,7 @@ export const nikonCameraProducts: Product[] = [
   {
     id: 'nikon-d7500',
     name: 'Nikon D7500',
-    images: [generateImageUrl('placeholder-camera.svg')],
+    images: [generateImageUrl('placeholder-camera.png')],
     price: 999,
     discountPercent: 20,
     description: 'APS-C DSLR camera with 20.9MP sensor and 4K video.',

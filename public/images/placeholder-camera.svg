@@ -1,6 +1,0 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" rx="32" fill="#e0e0e0"/>
-  <rect x="50" y="80" width="100" height="60" rx="16" fill="#f06292"/>
-  <circle cx="100" cy="110" r="22" fill="#ad1457"/>
-  <text x="100" y="110" text-anchor="middle" fill="#ad1457" font-size="16" font-family="Arial" dy="3.5em">Camera</text>
-</svg> 

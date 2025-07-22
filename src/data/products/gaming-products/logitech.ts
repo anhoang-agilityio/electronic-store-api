@@ -5,7 +5,7 @@ export const logitechGamingProducts: Product[] = [
   {
     id: 'logitech-g-pro-x-superlight',
     name: 'Logitech G Pro X Superlight',
-    images: [generateImageUrl('placeholder-gaming.svg')],
+    images: [generateImageUrl('placeholder-gaming.png')],
     price: 149,
     discountPercent: 10,
     description: 'Ultra-lightweight wireless gaming mouse with HERO 25K sensor.',
@@ -58,7 +58,7 @@ export const logitechGamingProducts: Product[] = [
   {
     id: 'logitech-g915-tkl',
     name: 'Logitech G915 TKL',
-    images: [generateImageUrl('placeholder-gaming.svg')],
+    images: [generateImageUrl('placeholder-gaming.png')],
     price: 199,
     discountPercent: 15,
     description: 'Wireless mechanical gaming keyboard with RGB lighting.',

@@ -6,7 +6,7 @@ export const razerComputers: Product[] = [
   {
     id: 'razer-blade-18',
     name: 'Razer Blade 18',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 3499,
     discountPercent: 0,
     description: 'Ultimate gaming laptop with 18-inch display and RTX 4090.',
@@ -71,7 +71,7 @@ export const razerComputers: Product[] = [
   {
     id: 'razer-blade-16',
     name: 'Razer Blade 16',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 2699,
     discountPercent: 5,
     description: 'Premium gaming laptop with dual-mode display.',
@@ -129,7 +129,7 @@ export const razerComputers: Product[] = [
   {
     id: 'razer-blade-15',
     name: 'Razer Blade 15',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1999,
     discountPercent: 8,
     description: 'Classic gaming laptop with RTX 4070.',
@@ -187,7 +187,7 @@ export const razerComputers: Product[] = [
   {
     id: 'razer-blade-14',
     name: 'Razer Blade 14',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 2499,
     discountPercent: 5,
     description: 'Compact gaming laptop with AMD Ryzen and RTX 4070.',
@@ -245,7 +245,7 @@ export const razerComputers: Product[] = [
   {
     id: 'razer-blade-stealth-13',
     name: 'Razer Blade Stealth 13',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1499,
     discountPercent: 10,
     description: 'Ultra-thin gaming laptop with RTX 4050.',

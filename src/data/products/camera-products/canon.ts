@@ -5,7 +5,7 @@ export const canonCameraProducts: Product[] = [
   {
     id: 'canon-eos-r5',
     name: 'Canon EOS R5',
-    images: [generateImageUrl('placeholder-camera.svg')],
+    images: [generateImageUrl('placeholder-camera.png')],
     price: 3899,
     discountPercent: 5,
     description: 'Full-frame mirrorless camera with 45MP sensor and 8K video.',
@@ -62,7 +62,7 @@ export const canonCameraProducts: Product[] = [
   {
     id: 'canon-eos-90d',
     name: 'Canon EOS 90D',
-    images: [generateImageUrl('placeholder-camera.svg')],
+    images: [generateImageUrl('placeholder-camera.png')],
     price: 1199,
     discountPercent: 15,
     description: 'APS-C DSLR camera with 32.5MP sensor and 4K video.',

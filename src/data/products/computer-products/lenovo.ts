@@ -6,7 +6,7 @@ export const lenovoComputers: Product[] = [
    {
     id: 'lenovo-thinkpad-x1-carbon',
     name: 'Lenovo ThinkPad X1 Carbon',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1499,
     discountPercent: 8,
     description: 'Premium business ultrabook with legendary durability.',
@@ -76,7 +76,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-yoga-9i',
     name: 'Lenovo Yoga 9i',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1299,
     discountPercent: 10,
     description: 'Premium 2-in-1 convertible with rotating soundbar.',
@@ -139,7 +139,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-ideapad-pro',
     name: 'Lenovo IdeaPad Pro',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 899,
     discountPercent: 12,
     description: 'Creative laptop with RTX graphics.',
@@ -197,7 +197,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-legion-5',
     name: 'Lenovo Legion 5',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 999,
     discountPercent: 15,
     description: 'Gaming laptop with excellent performance.',
@@ -255,7 +255,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-thinkbook-14',
     name: 'Lenovo ThinkBook 14',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 699,
     discountPercent: 10,
     description: 'Business laptop with modern design.',
@@ -312,7 +312,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-chromebook-flex',
     name: 'Lenovo Chromebook Flex 5',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 399,
     discountPercent: 20,
     description: 'Affordable 2-in-1 Chromebook.',
@@ -369,7 +369,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-legion-7',
     name: 'Lenovo Legion 7',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 1799,
     discountPercent: 8,
     description: 'Premium gaming laptop with advanced features.',
@@ -427,7 +427,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-yoga-slim-7',
     name: 'Lenovo Yoga Slim 7',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 799,
     discountPercent: 12,
     description: 'Slim and lightweight ultrabook.',
@@ -483,7 +483,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-ideapad-3',
     name: 'Lenovo IdeaPad 3',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 449,
     discountPercent: 15,
     description: 'Affordable everyday laptop.',
@@ -540,7 +540,7 @@ export const lenovoComputers: Product[] = [
   {
     id: 'lenovo-thinkpad-e14',
     name: 'Lenovo ThinkPad E14',
-    images: [generateImageUrl('placeholder-computer.svg')],
+    images: [generateImageUrl('placeholder-computer.png')],
     price: 599,
     discountPercent: 10,
     description: 'Entry-level ThinkPad for business.',

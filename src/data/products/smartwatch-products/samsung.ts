@@ -5,7 +5,7 @@ export const samsungWatchProducts: Product[] = [
   {
     id: 'samsung-galaxy-watch-6',
     name: 'Samsung Galaxy Watch 6',
-    images: [generateImageUrl('placeholder-smartwatch.svg')],
+    images: [generateImageUrl('placeholder-smartwatch.png')],
     price: 299,
     discountPercent: 8,
     description: 'Android smartwatch with advanced health monitoring.',
@@ -51,7 +51,7 @@ export const samsungWatchProducts: Product[] = [
   {
     id: 'samsung-galaxy-watch-6-classic',
     name: 'Samsung Galaxy Watch 6 Classic',
-    images: [generateImageUrl('placeholder-smartwatch.svg')],
+    images: [generateImageUrl('placeholder-smartwatch.png')],
     price: 399,
     discountPercent: 5,
     description: 'Premium Android smartwatch with rotating bezel.',

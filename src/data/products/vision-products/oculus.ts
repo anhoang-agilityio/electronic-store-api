@@ -5,7 +5,7 @@ export const oculusVisionProducts: Product[] = [
   {
     id: 'oculus-quest-3',
     name: 'Meta Quest 3',
-    images: [generateImageUrl('placeholder-vision.svg')],
+    images: [generateImageUrl('placeholder-vision.png')],
     price: 499,
     discountPercent: 10,
     description: 'Standalone VR headset with pancake lenses and mixed reality capabilities.',

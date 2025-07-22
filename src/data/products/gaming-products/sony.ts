@@ -5,7 +5,7 @@ export const sonyGamingProducts: Product[] = [
   {
     id: 'sony-playstation-5',
     name: 'Sony PlayStation 5',
-    images: [generateImageUrl('placeholder-gaming.svg')],
+    images: [generateImageUrl('placeholder-gaming.png')],
     price: 499,
     discountPercent: 0,
     description: 'Next-generation gaming console with 4K graphics and ray tracing.',
