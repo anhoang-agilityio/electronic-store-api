@@ -29,6 +29,28 @@ Returns all available categories.
 ]
 ```
 
+#### GET /api/categories/[id]
+Returns a category by its ID.
+
+**Path Parameters:**
+- `id`: The category ID (e.g., `phone`, `computer`, ...)
+
+**Response (200):**
+```json
+{
+  "id": "phone",
+  "name": "Phone",
+  "image": "/images/category-phone.svg"
+}
+```
+
+**Response (404):**
+```json
+{
+  "error": "Category not found"
+}
+```
+
 ### Brands
 
 #### GET /api/brands
